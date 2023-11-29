@@ -212,12 +212,3 @@ class GF_Custom_JS_File_Loader {
 		return rgar( $form, 'customJS' );
 	}
 }
-
-new GF_Custom_JS_File_Loader(
-	array(
-		array(
-			'form_id' => 7,
-			'file_name' => 'test.js',
-		),
-	)
-);
